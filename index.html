@@ -2,24 +2,44 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title> trip naar Kortrijk</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Homepage trip naar Kortrijk</title>
         <style>
             #navigatiemenu{
-                width:20%;
+                width:38%;
                 position:fixed;
                 right:0;
                 top:0;
                 border:5px outset #d8e6ad;
                 padding:5px;
                 background-color: #ADD8E6;
-                
+               
+            }
+            #inhoud {
+                width:60%;
+                 
             }
             body{
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 background-color: #adcae6;
             }
             :active a{
-                color:red
+                color:red;
+            }
+            h1,h2{
+                color:#d472a4;
+                background-color: #d8e6ad;
+            }
+            h1 {
+                width:60%;
+            }
+            #foto-begijnhof,#foto-belfort {
+                border: 5px outset #d8e6ad;
+            }
+            footer {
+                background-color: #d8e6ad;
+                width:60%;
             }
 
         </style>
@@ -27,16 +47,26 @@
     <body>
          
         <h1> dagtrip naar Kortrijk</h1>
-        <img src="https://www.reisroutes.be/userfiles/fotos/kortrijkse-begijnhof-bezoeken-kortrijk_24611_ml.jpg" alt="Sint-Elisabethbegijnhof" width="30%"> 
+        <div id="inhoud">
+        <img id="foto-begijnhof"src="https://www.reisroutes.be/userfiles/fotos/kortrijkse-begijnhof-bezoeken-kortrijk_24611_ml.jpg" alt="Sint-Elisabethbegijnhof" width="30%"> 
         <h2>Sint-Elisabethbegijnhof</h2>
-        <p>Het Begijnhof werd gesticht in 1238 en in 1240 rijkelijk gesteund door de Gravin van Vlaanderen, Johanna van Constantinopel. Je kunt haar standbeeld nog steeds terugvinden onder een boom op het gezellige binnenpleintje. Op de site staan in totaal een 40-tal huisjes die dateren uit 1650. Sinds 1984 begonnen grote restauratiewerken het begijnhof op te knappen. De laatste fases werden afgerond in 2019 en het resultaat mag er zijn. De rust op deze plek is onbeschrijfelijk, zeker als je weet dat je je op 100 meter van de Grote Markt
-            bevindt. Het Begijnhof staat met al haar pracht op de Werelderfgoedlijst van Unesco. </p>
+        <p> Het Begijnhof werd gesticht in 1238 en in 1240 rijkelijk gesteund door de Gravin van Vlaanderen, Johanna van Constantinopel. Je kunt haar standbeeld nog steeds terugvinden onder een boom op het gezellige binnenpleintje. Op de site staan in totaal een 40-tal huisjes die dateren uit 1650. Sinds 1984 begonnen grote restauratiewerken het begijnhof op te knappen. De laatste fases werden afgerond in 2019 en het resultaat mag er zijn. De rust op deze plek is onbeschrijfelijk, zeker als je weet dat je je op 100 meter van de Grote Markt bevindt. Het Begijnhof staat met al haar pracht op de Werelderfgoedlijst van Unesco.</p>
+        <img id ="foto-belfort" src="belfort.jpg" alt="belfort" width="30%">
+        <h2>Belfort van Kortrijk</h2>
+        <p>Op de Grote Markt staat het Belfort. De geschiedenis van het Belfort gaat terug tot de 14e eeuw. Het Belfort is een overblijfsel van de middeleeuwse lakenhalle die hier vroeger plaatsvond en heeft 4 puntige torentjes, een beiaard van 48 klokken en behoort tot de Werelderfgoedlijst van Unesco.</p>
+        </div>
         <div id="navigatiemenu">
             <p>
+                    <a href="hotels.html">Hotels in Kortrijk</a>
+                <br>
                     <a href="https://www.kortrijk.be/">Kortrijk.be</a>
                 <br>
                     <a href="https://www.reisroutes.be/blog/kortrijk/kortrijk-bezienswaardigheden/">Top 17 bezienswaardigheden</a>
             </p>    
-            </div>
+        </div>
     </body>
+    <footer>
+        <p>Auteur: Tiebe Vaes</p>
+        <p><a href="mailto:tiebe.vaes@leerling.piustien.net">tiebe.vaes@leerling.piustien.net</a></p>
+      </footer>
 </html>
